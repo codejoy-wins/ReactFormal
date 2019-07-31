@@ -44,6 +44,9 @@ class App extends React.Component {
           />
         </form>
         <h1 style={{color: this.state.color}}>{this.state.firstName} {this.state.lastName}</h1>
+        <footer>
+          <a href="https://maxjann.com">Jann Software</a>
+        </footer>
       </div>
     );
   }
